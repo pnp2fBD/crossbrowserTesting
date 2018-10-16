@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45196" started-at="2018-10-16T07:48:18Z" finished-at="2018-10-16T07:49:04Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="45196" started-at="2018-10-16T07:48:18Z" finished-at="2018-10-16T07:49:04Z">
+      <class name="org.qa.testscripts.CrossBrowserTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:org.qa.testscripts.CrossBrowserTest@77caeb3e]" name="setup" is-config="true" duration-ms="13271" started-at="2018-10-16T07:48:18Z" finished-at="2018-10-16T07:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="execute()[pri:1, instance:org.qa.testscripts.CrossBrowserTest@77caeb3e]" name="execute" duration-ms="31207" started-at="2018-10-16T07:48:32Z" finished-at="2018-10-16T07:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:org.qa.testscripts.CrossBrowserTest@77caeb3e]" name="teardown" is-config="true" duration-ms="702" started-at="2018-10-16T07:49:03Z" finished-at="2018-10-16T07:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.qa.testscripts.CrossBrowserTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
